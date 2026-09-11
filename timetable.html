@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e3a8a;
+    }
+
+    table {
+      width: 100%;
+      max-width: 1000px;
+      margin: 25px auto;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 16px;
+      text-align: center;
+    }
+
+    th {
+      background: #2563eb;
+      color: white;
+    }
+
+    td:first-child {
+      background: #e0e7ff;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) td:not(:first-child) {
+      background: #f8fafc;
+    }
+
+    .break {
+      background: #fef3c7 !important;
+      font-weight: bold;
+      color: #92400e;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Weekly Timetable</h1>
+
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr>
+      <td>9:30 - 10:20</td>
+      <td>Flat</td>
+      <td>Cn</td>
+      <td>Dwdm</td>
+      <td>Poc</td>
+      <td>Ai</td>
+    </tr>
+    <tr>
+      <td>10:20 - 11:10</td>
+      <td>Ai</td>
+      <td>Dwdm</td>
+      <td>Flat</td>
+      <td>Flat</td>
+      <td>Cn</td>
+    </tr>
+    <tr>
+      <td>11:10 - 11:20</td>
+      <td colspan="5" class="break">Break</td>
+    </tr>
+    <tr>
+      <td>11:20 - 12:10</td>
+      <td>Poc</td>
+      <td>Ai</td>
+      <td>Dwdm</td>
+      <td>Cn</td>
+      <td>Poc</td>
+    </tr>
+    <tr>
+      <td>12:10 - 01:00</td>
+      </td>
+      <td>Flat</td>
+      <td>Ai</td>
+      <td>Dwdm</td>
+      <td>Flat</td>
+      <td>Ai</td>
+    </tr>
+    <tr>
+      <td>01:00 - 02:00</td>
+      <td colspan="5" class="break">Lunch Break</td>
+    </tr>
+    <tr>
+      <td>02:00 - 02:50</td>
+      <td>Cn</td>
+      <td>Ai</td>
+      <td>Poc</td>
+      <td>Dwdm</td>
+      <td>Dwdm</td>
+    </tr>
+    <tr>
+      <td>02:50 - 03:40</td>
+      <td>Dwdm</td>
+      <td>Cn</td>
+      <td>Flat</td>
+      <td>Poc</td>
+      <td>Ai</td>
+    </tr>
+    <tr>
+      <td>03:40 - 04:30</td>
+      <td>Poc</td>
+      <td>Cn</td>
+      <td>Dwdmt</td>
+      <td>Poc</td>
+      <td>Flat</td>
+    </tr>
+  </table>
+</body>
+</html>
